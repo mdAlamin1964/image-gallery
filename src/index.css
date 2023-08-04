@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background: rgb(88,129,87);
+    background: -moz-radial-gradient(circle, rgba(88,129,87,1) 0%, rgba(88,129,87,1) 53%, rgba(163,177,138,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(88,129,87,1) 0%, rgba(88,129,87,1) 53%, rgba(163,177,138,1) 100%);
+    background: radial-gradient(circle, rgba(88,129,87,1) 0%, rgba(88,129,87,1) 53%, rgba(163,177,138,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#588157",endColorstr="#a3b18a",GradientType=1); 
+}
+
+
+.image-box {
+    background: white;
+}
+
+
+.search-box{
+    background-color: white;
+}
+
+.search-btn {
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 920px) {
+    .image-box {
+        margin:auto;
+    }
+}
